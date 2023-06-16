@@ -1,0 +1,38 @@
+.App {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.Card {
+  width: 352px;
+  display: flex;
+  flex-direction: column;
+}
+.Card img {
+  width: 350px;
+  margin-bottom: 15px;
+}
+.Card h2 {
+  font-size: 28px;
+  color: rebeccapurple;
+  text-transform: uppercase;
+  text-align: center;
+}
+.Card p {
+  font-size: 14px;
+  color: rebeccapurple;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.Card button {
+  width: 350px;
+  height: 30px;
+  color: white;
+  background-color: rebeccapurple;
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  border: none;
+}
+
